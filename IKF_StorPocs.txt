@@ -1,0 +1,140 @@
+Create
+-------------------------------------------------------------------------------------------------------------------------
+USE [IKFAssign]
+GO
+
+/****** Object:  StoredProcedure [dbo].[ups_CreateUser]    Script Date: 02-01-2021 21:37:01 ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE PROCEDURE [dbo].[ups_CreateUser]   
+   @Name varchar(20),
+   @DateOfBirth dateTime,
+   @Designation varchar(20),
+   @Skills varchar(Max)
+AS  
+BEGIN  
+    -- SET NOCOUNT ON added to prevent extra result sets from  
+    -- interfering with SELECT statements.  
+    SET NOCOUNT ON;  
+  
+    -- Insert statements for procedure here  
+   insert into Tbl_Users(Name,DateOfBirth,Designation,Skills) values(@Name,@DateOfBirth,@Designation,@Skills)
+END  
+GO
+
+
+
+---------------------------------------------------------------------------------------------------------------------------
+
+Delete
+
+---------------------------------------------------------------------------------------------------------------------------
+
+USE [IKFAssign]
+GO
+
+/****** Object:  StoredProcedure [dbo].[ups_DeleteUser]    Script Date: 02-01-2021 21:37:52 ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE PROCEDURE [dbo].[ups_DeleteUser]
+   @ID int   
+AS  
+BEGIN  
+    SET NOCOUNT ON;      
+   Delete from Tbl_Users
+   where ID=@ID
+END  
+GO
+
+
+----------------------------------------------------------------------------------------------------------------------------
+
+Select All
+
+----------------------------------------------------------------------------------------------------------------------------
+
+USE [IKFAssign]
+GO
+
+/****** Object:  StoredProcedure [dbo].[ups_GetAllUser]    Script Date: 02-01-2021 21:38:56 ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE PROCEDURE [dbo].[ups_GetAllUser]  
+AS  
+BEGIN  
+    SET NOCOUNT ON;      
+   Select *from Tbl_Users   
+END  
+GO
+
+
+
+---------------------------------------------------------------------------------------------------------------------------
+
+Select By ID
+
+---------------------------------------------------------------------------------------------------------------------------
+
+USE [IKFAssign]
+GO
+
+/****** Object:  StoredProcedure [dbo].[ups_GetUserByID]    Script Date: 02-01-2021 21:39:53 ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+Create PROCEDURE [dbo].[ups_GetUserByID]  
+@Id int
+AS  
+BEGIN  
+    SET NOCOUNT ON;      
+   Select *from Tbl_Users where Id=@Id
+END  
+GO
+
+
+--------------------------------------------------------------------------------------------------------------------------
+
+Update
+
+--------------------------------------------------------------------------------------------------------------------------
+
+USE [IKFAssign]
+GO
+
+/****** Object:  StoredProcedure [dbo].[ups_UpdateUser]    Script Date: 02-01-2021 21:40:54 ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE PROCEDURE [dbo].[ups_UpdateUser]
+   @ID int,
+   @Name varchar(20),
+   @DateOfBirth dateTime,
+   @Designation varchar(20),
+   @Skills varchar(Max)
+AS  
+BEGIN  
+    SET NOCOUNT ON;      
+   Update Tbl_Users set Name=@Name,DateOfBirth=@DateOfBirth,Designation=@Designation,Skills=@Skills
+   where ID=@ID
+END  
+GO
+
+
