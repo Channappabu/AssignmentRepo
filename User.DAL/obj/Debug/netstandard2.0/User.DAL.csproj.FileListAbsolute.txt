@@ -1,0 +1,12 @@
+C:\Users\channappa.burali\source\repos\ServiceIKF\User.DAL\obj\Debug\netstandard2.0\User.DAL.csproj.CoreCompileInputs.cache
+C:\Users\channappa.burali\source\repos\ServiceIKF\User.DAL\obj\Debug\netstandard2.0\User.DAL.AssemblyInfoInputs.cache
+C:\Users\channappa.burali\source\repos\ServiceIKF\User.DAL\obj\Debug\netstandard2.0\User.DAL.AssemblyInfo.cs
+C:\Users\channappa.burali\source\repos\ServiceIKF\User.DAL\bin\Debug\netstandard2.0\User.DAL.deps.json
+C:\Users\channappa.burali\source\repos\ServiceIKF\User.DAL\bin\Debug\netstandard2.0\User.DAL.dll
+C:\Users\channappa.burali\source\repos\ServiceIKF\User.DAL\bin\Debug\netstandard2.0\User.DAL.pdb
+C:\Users\channappa.burali\source\repos\ServiceIKF\User.DAL\bin\Debug\netstandard2.0\Common.dll
+C:\Users\channappa.burali\source\repos\ServiceIKF\User.DAL\bin\Debug\netstandard2.0\Common.pdb
+C:\Users\channappa.burali\source\repos\ServiceIKF\User.DAL\obj\Debug\netstandard2.0\User.DAL.csprojAssemblyReference.cache
+C:\Users\channappa.burali\source\repos\ServiceIKF\User.DAL\obj\Debug\netstandard2.0\User.DAL.csproj.CopyComplete
+C:\Users\channappa.burali\source\repos\ServiceIKF\User.DAL\obj\Debug\netstandard2.0\User.DAL.dll
+C:\Users\channappa.burali\source\repos\ServiceIKF\User.DAL\obj\Debug\netstandard2.0\User.DAL.pdb

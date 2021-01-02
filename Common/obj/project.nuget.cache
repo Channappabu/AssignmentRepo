@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "8JiESwiz/FcpKDpYoeKkKExgovXuzvoK/8GfJ6WWR0MQ9F3OfdUzrVb2Q5ej1+gdeh+nvxl4Y2wudKiJV1+Feg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\channappa.burali\\source\\repos\\ServiceIKF\\Common\\Common.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\channappa.burali\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\channappa.burali\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
